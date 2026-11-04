@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Swe Zin Linn is a senior Android developer with nine years of experience in Kotlin and Java, building AI features, fintech apps and connected devices.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://swezinlinn.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Swe Zin Linn — Senior Android Developer">
+<meta property="og:description" content="Swe Zin Linn is a senior Android developer with nine years of experience in Kotlin and Java, building AI features, fintech apps and connected devices.">
+<meta property="og:url" content="https://swezinlinn.github.io/">
+<meta name="twitter:card" content="summary">
+<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}</style>
+<title>Swe Zin Linn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+  /* Layout: fixed identity rail on the left, one measured column of work on the right; stacks to a single column below 900px. */
+  :root {
+    --bg: #f2f4f3;
+    --surface: #ffffff;
+    --fg: #141917;
+    --muted: #5d6b65;
+    --line: #d8ded9;
+    --accent: #1f5c4a;
+    --accent-soft: #e4eee9;
+
+    --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --body: "Newsreader", Georgia, "Times New Roman", serif;
+    --mono: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1311;
+      --surface: #161d1a;
+      --fg: #e7ece9;
+      --muted: #94a49c;
+      --line: #273330;
+      --accent: #7fc3a9;
+      --accent-soft: #192a24;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1311;
+    --surface: #161d1a;
+    --fg: #e7ece9;
+    --muted: #94a49c;
+    --line: #273330;
+    --accent: #7fc3a9;
+    --accent-soft: #192a24;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 56px 72px;
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 72px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .page { grid-template-columns: minmax(0, 1fr); gap: 44px; padding-block: 40px 56px; }
+  }
+
+  /* ---------- identity rail ---------- */
+  .rail { position: sticky; top: 56px; display: flex; flex-direction: column; gap: 26px; }
+  @media (max-width: 900px) { .rail { position: static; gap: 22px; } }
+
+  .name {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2.1rem, 5.2vw, 2.65rem);
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .role {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 10px 0 0;
+  }
+  .where {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 6px 0 0;
+  }
+
+  .links { display: flex; flex-direction: column; gap: 2px; }
+  .links a {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--fg);
+    text-decoration: none;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    transition: color .15s ease, padding-left .15s ease;
+  }
+  .links a:first-child { border-top: 1px solid var(--line); }
+  .links a span { color: var(--muted); }
+  .links a:hover, .links a:focus-visible { color: var(--accent); padding-left: 5px; }
+  .links a:hover span, .links a:focus-visible span { color: var(--accent); }
+
+  .rail-note {
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin: 0;
+    max-width: 30ch;
+  }
+  .rail-note code {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--fg);
+    background: var(--accent-soft);
+    padding: 1px 5px;
+    border-radius: 2px;
+    user-select: all;
+  }
+
+  /* ---------- content ---------- */
+  .content { display: flex; flex-direction: column; gap: 60px; min-width: 0; }
+
+  .lede {
+    font-size: clamp(1.12rem, 2.1vw, 1.3rem);
+    line-height: 1.52;
+    margin: 0;
+    max-width: 64ch;
+  }
+  .lede strong { font-weight: 500; color: var(--accent); }
+
+  .figures { display: flex; flex-wrap: wrap; gap: 36px; margin: 0; padding: 0; }
+  .figures div { min-width: 0; }
+  .figures dt {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .figures dd {
+    margin: 2px 0 0;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  section { min-width: 0; }
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: 0 0 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  .sec-head h2 {
+    font-family: var(--mono);
+    font-weight: 500;
+    font-size: 0.74rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .sec-head p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+
+  /* ---------- work ---------- */
+  .work { display: flex; flex-direction: column; gap: 14px; }
+  .proj {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+  }
+  .proj-top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 18px; }
+  .proj h3 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.22rem;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .proj-meta {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .proj p { margin: 0; font-size: 1rem; line-height: 1.58; max-width: 66ch; }
+  .proj ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+  .proj li { font-size: 0.97rem; line-height: 1.5; max-width: 64ch; }
+  .proj li::marker { color: var(--accent); }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .tags span {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    padding: 3px 8px;
+  }
+
+  /* ---------- timeline ---------- */
+  .roles { display: flex; flex-direction: column; }
+  .job {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 4px 24px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .job:first-child { border-top: 1px solid var(--line); }
+  .job .when {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    padding-top: 3px;
+  }
+  .job h3 { font-family: var(--display); font-weight: 600; font-size: 1.02rem; margin: 0; letter-spacing: -0.01em; }
+  .job p { margin: 3px 0 0; font-size: 0.95rem; color: var(--muted); max-width: 60ch; }
+  @media (max-width: 620px) {
+    .job { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+    .job .when { padding-top: 0; order: -1; }
+  }
+
+  /* ---------- stack ---------- */
+  .stack { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 24px 32px; }
+  .stack div { min-width: 0; }
+  .stack h3 {
+    font-family: var(--mono);
+    font-weight: 500;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 6px;
+  }
+  .stack p { margin: 0; font-size: 0.95rem; line-height: 1.55; }
+
+  /* ---------- closing ---------- */
+  .closing {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: 28px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .closing h2 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.025em;
+    margin: 0;
+  }
+  .closing p { margin: 0; max-width: 56ch; font-size: 1rem; }
+  .closing .addr {
+    font-family: var(--mono);
+    font-size: 0.9rem;
+    user-select: all;
+    color: var(--accent);
+    word-break: break-all;
+  }
+
+  footer {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+  }
+
+  a:focus-visible, .proj:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  .rise { animation: rise .5s cubic-bezier(.2,.7,.3,1) backwards; }
+  .rise:nth-child(2) { animation-delay: .05s; }
+  .rise:nth-child(3) { animation-delay: .1s; }
+  .rise:nth-child(4) { animation-delay: .15s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  @media (prefers-reduced-motion: reduce) {
+    .rise { animation: none; }
+    * { transition: none !important; }
+  }
+</style>
+<style>
+  .cvlink {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    color: var(--fg);
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    padding: 9px 16px;
+    display: inline-block;
+    transition: background .15s ease, color .15s ease;
+  }
+  .cvlink:hover, .cvlink:focus-visible { background: var(--accent); color: var(--bg); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Swe Zin Linn",
+  "jobTitle": "Senior Android Developer",
+  "email": "mailto:swezinlinn1@gmail.com",
+  "url": "https://swezinlinn.github.io",
+  "address": { "@type": "PostalAddress", "addressLocality": "Yangon", "addressCountry": "MM" },
+  "sameAs": [
+    "https://www.linkedin.com/in/swe-zin-linn/",
+    "https://github.com/swezinlinn"
+  ],
+  "knowsAbout": [
+    "Android development", "Kotlin", "Jetpack Compose", "Java",
+    "Mobile AI features", "Firebase", "Clean Architecture"
+  ],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Information Technology, Yangon" }
+}
+</script>
+</head>
+<body>
+<div class="page">
+
+  <aside class="rail">
+    <div>
+      <h1 class="name">Swe&nbsp;Zin Linn</h1>
+      <p class="role">Senior Android Developer</p>
+      <p class="where">Yangon, Myanmar · Remote</p>
+    </div>
+
+    <nav class="links">
+      <a href="https://github.com/swezinlinn">GitHub <span>swezinlinn</span></a>
+      <a href="https://www.linkedin.com/in/swe-zin-linn/">LinkedIn <span>swe-zin-linn</span></a>
+    </nav>
+
+    <p class="rail-note">
+      Nine years building native Android for fintech, connectivity and children's devices.
+      Reach me at <code>swezinlinn1@gmail.com</code>.
+    </p>
+  </aside>
+
+  <main class="content">
+
+    <p class="lede rise">
+      I build Android apps that people use every day, and lately the AI features inside them.
+      I wrote the <strong>OneCash AI chat SDK</strong>, a Compose assistant that streams model
+      responses over a WebSocket and keeps working when the socket drops. Before that I led
+      generative video on myFirst's children's cameras, and the re-architecture of Wave Money,
+      Myanmar's largest fintech app, to a 99.5% crash-free rate across five million users.
+    </p>
+
+    <dl class="figures rise">
+      <div><dt>9</dt><dd>Years shipping Android</dd></div>
+      <div><dt>5M</dt><dd>Users on apps I built</dd></div>
+      <div><dt>99.5%</dt><dd>Crash-free sessions</dd></div>
+      <div><dt>4</dt><dd>Countries served</dd></div>
+    </dl>
+
+    <section class="rise">
+      <div class="sec-head">
+        <h2>Selected work</h2>
+        <p>What I owned, and how it was built.</p>
+      </div>
+
+      <div class="work">
+
+        <article class="proj">
+          <div class="proj-top">
+            <h3>OneCash AI chat SDK</h3>
+            <span class="proj-meta">2026 — sole author</span>
+          </div>
+          <p>
+            An AI assistant packaged as a drop-in Compose library, so every app in the group gets
+            the same chat experience without rebuilding it. Published as an AAR through JitPack
+            with its own theming, navigation and service flows.
+          </p>
+          <ul>
+            <li>Replies stream over an OkHttp WebSocket that reconnects with exponential backoff.</li>
+            <li>Messages queue in Room while the socket is down and replay the moment it reopens.</li>
+            <li>Session state is held in EncryptedSharedPreferences behind a single-entry facade.</li>
+            <li>Bilingual Arabic and English, with full right-to-left layout.</li>
+          </ul>
+          <div class="tags">
+            <span>Kotlin</span><span>Jetpack Compose</span><span>WebSocket</span>
+            <span>Room</span><span>Hilt</span><span>Material 3</span>
+          </div>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <h3>myFirst Cam — AI video generation</h3>
+            <span class="proj-meta">2024–2026 — feature owner</span>
+          </div>
+          <p>
+            Children pick photos, record a voice note, and get a finished video back. I owned the
+            pipeline end to end, on a kids' device where failures have to clean up after themselves.
+          </p>
+          <ul>
+            <li>Parallel uploads to Firebase Storage under a concurrency limit, with full artefact cleanup when a run fails.</li>
+            <li>Generation requests brokered through Firestore, surfaced as a step-based progress UI.</li>
+            <li>Voiceover, music and original audio mixed into the render with FFmpeg.</li>
+            <li>Template renders scheduled on WorkManager so long jobs survive backgrounding.</li>
+            <li>Daily generation quotas driven by Remote Config, so AI cost is tuned without a release.</li>
+          </ul>
+          <div class="tags">
+            <span>Kotlin</span><span>Compose</span><span>Firebase</span><span>FFmpeg</span>
+            <span>WorkManager</span><span>ML Kit</span><span>TensorFlow Lite</span>
+          </div>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <h3>One Cash Agent</h3>
+            <span class="proj-meta">2026 — present</span>
+          </div>
+          <p>
+            The app agents use to move money across Yemen. I ship features into a long-lived mixed
+            Java and Kotlin codebase without disturbing what already works.
+          </p>
+          <ul>
+            <li>Cash-in, e-wallet and over-the-counter transfers, refunds, vouchers, e-cards, Zakat payments and service orders.</li>
+            <li>Registration and MSISDN validation extended to customers outside Yemen, with per-country number rules.</li>
+            <li>Transaction history and detail rebuilt, including refund journeys and request hashing.</li>
+          </ul>
+          <div class="tags">
+            <span>Kotlin</span><span>Java</span><span>REST</span><span>Legacy modernisation</span>
+          </div>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <h3>Wave Money Super App</h3>
+            <span class="proj-meta">2019–2024 — domain expert</span>
+          </div>
+          <p>
+            Myanmar's largest fintech app, used by millions daily. I was the domain expert for the
+            re-architecture that broke it into domain-based modules, and helped turn it into a
+            platform that hosts mini-apps.
+          </p>
+          <ul>
+            <li>Crash-free rate raised to 99.5% for five million users through systematic log-based debugging.</li>
+            <li>Super App platform built by embedding mini-apps alongside the core wallet.</li>
+            <li>Technical mentor at Wave Hackathon 2023, and day-to-day mentor to junior engineers.</li>
+          </ul>
+          <div class="tags">
+            <span>Kotlin</span><span>MVVM</span><span>Room</span><span>Retrofit</span>
+            <span>Firebase</span><span>Mixpanel</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <h2>Experience</h2>
+        <p>2016 to now.</p>
+      </div>
+      <div class="roles">
+        <div class="job">
+          <div class="when">Sep 2026 — present</div>
+          <div>
+            <h3>Senior Android Developer, OneCash</h3>
+            <p>AI chat SDK and agent-facing fintech features.</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="when">Sep 2024 — Sep 2026</div>
+          <div>
+            <h3>Senior Android Developer, myFirst Teach Sdn Bhd</h3>
+            <p>Generative video, post and create modules, device setup wizard. Johor, Malaysia.</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="when">May 2019 — Sep 2024</div>
+          <div>
+            <h3>Android Developer, Wave Money</h3>
+            <p>Digital Money Myanmar Limited. Super App, modularisation, mentoring.</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="when">Sep 2017 — May 2019</div>
+          <div>
+            <h3>Android Developer, Frontiir</h3>
+            <p>ISP apps on MVP and Dagger 2, ExoPlayer streaming, a Leanback TV launcher.</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="when">Nov 2016 — Aug 2017</div>
+          <div>
+            <h3>Intern and field study</h3>
+            <p>React Native and native Android, in teams of three and five.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <h2>Stack</h2>
+        <p>What I reach for.</p>
+      </div>
+      <div class="stack">
+        <div>
+          <h3>Languages</h3>
+          <p>Kotlin, Java, JavaScript, PHP, Python</p>
+        </div>
+        <div>
+          <h3>Android</h3>
+          <p>Jetpack Compose, Coroutines and Flow, WorkManager, CameraX, Media3, Leanback, Espresso</p>
+        </div>
+        <div>
+          <h3>AI and ML</h3>
+          <p>Streaming LLM chat, OpenAI Realtime API, speech-to-text with server VAD, Google ML Kit, TensorFlow Lite</p>
+        </div>
+        <div>
+          <h3>Architecture</h3>
+          <p>MVVM, MVP, Clean Architecture, multi-module and domain-based modularisation, SDK and AAR design</p>
+        </div>
+        <div>
+          <h3>Data and APIs</h3>
+          <p>Room, SQLite, Realm, Retrofit, OkHttp REST and WebSocket, Firebase, Postman</p>
+        </div>
+        <div>
+          <h3>Delivery</h3>
+          <p>Git, CI/CD, Hilt and Dagger 2, RxJava, Agile and Scrum, code review, mentoring</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <h2>Education</h2>
+        <p>And certification.</p>
+      </div>
+      <div class="roles">
+        <div class="job">
+          <div class="when">2012 — 2017</div>
+          <div>
+            <h3>BSc Computer Science, Software Engineering</h3>
+            <p>University of Information Technology, Yangon. Final-year project predicting vehicle crash conditions with Naive Bayes classification.</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="when">Certified</div>
+          <div>
+            <h3>ITPEC, IT Professional Examination Council</h3>
+            <p>Also SDLC (Agile) and Android development certificates, and a Team Recognition Award at Frontiir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <h2>Get in touch</h2>
+      <p>
+        Happy to talk about Android work, AI features in mobile products, or anything on this page.
+        The quickest way to reach me is email.
+      </p>
+      <p class="addr">swezinlinn1@gmail.com</p>
+      <p><a class="cvlink" href="Swe-Zin-Linn-CV.pdf">Full CV (PDF)</a></p>
+    </section>
+
+    <footer>Swe Zin Linn · Senior Android Developer · Yangon, Myanmar</footer>
+
+  </main>
+</div>
+</body>
+</html>

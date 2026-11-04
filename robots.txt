@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://swezinlinn.github.io/sitemap.xml
