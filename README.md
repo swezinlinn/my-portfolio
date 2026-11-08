@@ -1,6 +1,9 @@
-# swezinlinn.github.io
+# my-portfolio
 
-Personal portfolio site. Plain HTML, no build step, no dependencies.
+Personal portfolio site, served by GitHub Pages at
+https://swezinlinn.github.io/my-portfolio/
+
+Plain HTML, no build step, no dependencies.
 
 ## Files
 
@@ -8,26 +11,34 @@ Personal portfolio site. Plain HTML, no build step, no dependencies.
 - `Swe-Zin-Linn-CV.pdf` — linked from the "Get in touch" section
 - `robots.txt`, `sitemap.xml` — so search engines index the page
 
-## Publish it on GitHub Pages
+## Turning Pages on (once)
 
-1. On github.com, create a **public** repository named exactly `swezinlinn.github.io`.
-   Do not add a README, .gitignore or licence — keep it empty.
-2. In this folder:
+Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder
+`/ (root)` → Save. The site appears about a minute later.
 
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "Portfolio site"
-   git remote add origin https://github.com/swezinlinn/swezinlinn.github.io.git
-   git push -u origin main
-   ```
+## Making a change
 
-3. Wait about a minute, then open https://swezinlinn.github.io
+Edit `index.html`, then:
 
-The site rebuilds on every push. To change text, edit `index.html`, then
-`git add . && git commit -m "Update" && git push`.
+```bash
+cd ~/swezinlinn-portfolio
+git add . && git commit -m "Update" && git push
+```
+
+Pages redeploys on every push to `main`.
 
 ## Updating the CV
 
-Replace `Swe-Zin-Linn-CV.pdf` with a newer export, keeping the same filename,
-then commit and push. The link on the page keeps working.
+The PDF is generated from `~/swezinlinn-cv`. After rebuilding it there:
+
+```bash
+cp ~/swezinlinn-cv/out.pdf ~/swezinlinn-portfolio/Swe-Zin-Linn-CV.pdf
+cd ~/swezinlinn-portfolio && git add . && git commit -m "Update CV" && git push
+```
+
+## If the site ever moves
+
+The URL appears in four places: `<link rel="canonical">` and `og:url` in
+`index.html`, the `"url"` field in its JSON-LD block, plus `sitemap.xml` and
+`robots.txt`. It is also printed in the CV header, which comes from
+`~/swezinlinn-cv/content.py`.
