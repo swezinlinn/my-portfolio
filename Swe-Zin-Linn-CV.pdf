@@ -10,7 +10,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
 4 0 obj
-<< /Type /Pages /Count 2 /Kids [12 0 R 16 0 R] >>
+<< /Type /Pages /Count 2 /Kids [12 0 R 17 0 R] >>
 endobj
 5 0 obj
 << /Length 9282 >>
@@ -134,7 +134,7 @@ endobj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] /Contents 5 0 R >>
 endobj
 13 0 obj
-<< /Length 9178 >>
+<< /Length 9384 >>
 stream
 0 0 0 rg
 0 0 0 RG
@@ -181,9 +181,12 @@ BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 486.36 Tm (Created sequence diagrams to com
 BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 469.03 Tm (Android Developer \(Associate Engineer\)) Tj ET
 BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.72 469.03 Tm (Sep 2017 \226 Mar 2019) Tj ET
 BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 457.41 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
-BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 445.82 Tm (On Google Play:) Tj ET
-BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 445.82 Tm (Myanmar Net App) Tj ET
-0.40 w 137.46 444.22 m 208.37 444.22 l S
+BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 445.82 Tm (App listings:) Tj ET
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 122.29 445.82 Tm (Myanmar Net App \227 Google Play) Tj ET
+0.40 w 122.29 444.22 m 254.83 444.22 l S
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 254.83 445.82 Tm (   \267   ) Tj ET
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 271.95 445.82 Tm (Myanmar Cast \227 Softonic) Tj ET
+0.40 w 271.95 444.22 m 374.65 444.22 l S
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 432.01 Tm (\225) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 432.01 Tm (Built and maintained Myanmar Net App and Myanmar Cast \227 the subscriber and internet-TV apps for) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 420.66 Tm (Myanmar's largest broadband provider \227 on MVP with Dagger 2 and RxJava.) Tj ET
@@ -237,19 +240,22 @@ endobj
 << /Type /Annot /Subtype /Link /Rect [136.46 683.92 176.12 692.99] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=mm.com.wavemoney.wavepay) >> >>
 endobj
 15 0 obj
-<< /Type /Annot /Subtype /Link /Rect [136.46 443.62 209.37 452.69] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
+<< /Type /Annot /Subtype /Link /Rect [121.29 443.62 255.83 452.69] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
 endobj
 16 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [14 0 R 15 0 R] /Contents 13 0 R >>
+<< /Type /Annot /Subtype /Link /Rect [270.95 443.62 375.65 452.69] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://myanmar-cast-app.en.softonic.com/android/download) >> >>
 endobj
 17 0 obj
-<< /Title (Swe Zin Linn \226 Senior Android Developer \226 CV) /Author (Swe Zin Linn) /Subject (Curriculum Vitae) /Creator (Swe Zin Linn) >>
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [14 0 R 15 0 R 16 0 R] /Contents 13 0 R >>
 endobj
 18 0 obj
+<< /Title (Swe Zin Linn \226 Senior Android Developer \226 CV) /Author (Swe Zin Linn) /Subject (Curriculum Vitae) /Creator (Swe Zin Linn) >>
+endobj
+19 0 obj
 << /Type /Catalog /Pages 4 0 R >>
 endobj
 xref
-0 19
+0 20
 0000000000 65535 f 
 0000000015 00000 n 
 0000000112 00000 n 
@@ -264,13 +270,14 @@ xref
 0000010576 00000 n 
 0000010773 00000 n 
 0000010974 00000 n 
-0000020205 00000 n 
-0000020407 00000 n 
-0000020612 00000 n 
-0000020790 00000 n 
-0000020947 00000 n 
+0000020411 00000 n 
+0000020613 00000 n 
+0000020818 00000 n 
+0000021007 00000 n 
+0000021192 00000 n 
+0000021349 00000 n 
 trailer
-<< /Size 19 /Root 18 0 R /Info 17 0 R >>
+<< /Size 20 /Root 19 0 R /Info 18 0 R >>
 startxref
-20997
+21399
 %%EOF
