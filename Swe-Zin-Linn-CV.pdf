@@ -13,7 +13,7 @@ endobj
 << /Type /Pages /Count 2 /Kids [12 0 R 16 0 R] >>
 endobj
 5 0 obj
-<< /Length 9320 >>
+<< /Length 9282 >>
 stream
 0 0 0 rg
 0 0 0 RG
@@ -66,48 +66,49 @@ BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 263.66 408.72 Tm (   \267   ) Tj ET
 BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 280.78 408.72 Tm (ONE Cash: Your Digital Wallet) Tj ET
 0.40 w 280.78 407.12 m 400.10 407.12 l S
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 394.91 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 394.91 Tm (Sole author of the OneCash AI chat SDK: an AI assistant packaged as a reusable Compose library \(AAR /) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 383.56 Tm (JitPack\) that any app in the group can drop in, with its own theming, navigation and service flows.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 394.91 Tm (Build both ONE Cash apps \227 the customer wallet and the agent app \227 and wrote the AI chat SDK that ships) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 383.56 Tm (inside the customer app.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 371.01 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 371.01 Tm (Stream assistant replies over an OkHttp WebSocket with auto-reconnect and exponential backoff; queue) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 359.66 Tm (messages in Room while the socket is down and replay them automatically on reconnect.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 371.01 Tm (Sole author of the OneCash chat SDK: an assistant packaged as a reusable Compose library \(AAR / JitPack\),) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 359.66 Tm (embedded in the customer app's home screen.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 347.11 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 347.11 Tm (Secure session state in EncryptedSharedPreferences and expose a single-entry facade so host apps integrate) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 335.76 Tm (the assistant in a few lines.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 347.11 Tm (Replies stream over an OkHttp WebSocket with auto-reconnect and exponential backoff; messages queue in) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 335.76 Tm (Room while the socket is down and replay automatically on reconnect.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 323.21 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 323.21 Tm (Design a bilingual Arabic/English chat experience with full RTL support, Material 3 theming, service cards, deep) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 311.86 Tm (links and offline-aware UI states.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 323.21 Tm (Session state held in EncryptedSharedPreferences behind a single-entry facade, with a bilingual Arabic/English) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 311.86 Tm (interface and full RTL support.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 299.31 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 299.31 Tm (Ship agent-facing fintech features in the One Cash Agent app: cash-in, e-wallet and over-the-counter transfers,) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 287.96 Tm (refunds, nominated-bank transfers, voucher redemption, e-cards, Zakat payments and service orders.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 299.31 Tm (Customer app: delivered loyalty points end-to-end, from the new home experience and hero module through to) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 287.96 Tm (points redemption.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 275.41 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 275.41 Tm (Extended agent registration and MSISDN validation to serve customers outside Yemen, with international) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 264.06 Tm (country-code selection, search and per-country number rules.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 251.51 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 251.51 Tm (Rebuilt transaction history and transaction details, including refund journeys and request hashing, across a) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 240.16 Tm (long-lived mixed Java/Kotlin codebase.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 222.83 Tm (Senior Android Developer) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.21 222.83 Tm (Sep 2024 \226 Sep 2026) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 211.21 Tm (myFirst Teach Sdn Bhd  |  Johor, Malaysia) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 197.61 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 197.61 Tm (Owned AI video generation in myFirst Cam: parallel uploads of photos and voice notes to Firebase Storage) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 186.26 Tm (under a concurrency limit, generation requests brokered through Firestore, a step-based progress UI, and full) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 174.91 Tm (artefact cleanup when a run fails.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 162.36 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 162.36 Tm (Built the voiceover pipeline end-to-end \227 in-app voice note recording, FFmpeg audio mixing of voiceover, music) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 151.01 Tm (and original track into the generated video, plus playback control and per-track volume.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 138.46 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 138.46 Tm (Added template-based video rendering on WorkManager, with background scheduling, music download and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 127.11 Tm (media preparation so long renders survive backgrounding.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 114.56 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 114.56 Tm (Enforced per-day generation quotas driven by Firebase Remote Config, so AI cost could be tuned remotely) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 103.21 Tm (without a release.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 90.66 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 90.66 Tm (Built the post and create modules from scratch and re-architected their flows inside a 15-module Compose) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 79.31 Tm (codebase using Hilt, Room and Retrofit.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 66.76 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 66.76 Tm (Delivered the device setup wizard: software update, date and time, camera naming and device binding over the) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 55.41 Tm (camera pairing flow.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 275.41 Tm (Customer app: built multi-biller payment journeys with dynamic biller forms, checkout and confirmation screens.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 262.86 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 262.86 Tm (Customer app: added notification events and in-app notification handling, side-menu reporting, favourites and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 251.51 Tm (Arabic/English localisation.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 238.96 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 238.96 Tm (Agent app: cash-in, e-wallet and over-the-counter transfers, refunds, nominated-bank transfers, vouchers,) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 227.61 Tm (e-cards, Zakat payments and service orders.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 215.06 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 215.06 Tm (Agent app: extended registration and MSISDN validation to customers outside Yemen, with international) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 203.71 Tm (country-code selection and per-country number rules.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 191.16 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 191.16 Tm (Agent app: rebuilt transaction history and details, including refund journeys and request hashing, across a) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 179.81 Tm (long-lived mixed Java/Kotlin codebase.) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 162.48 Tm (Senior Android Developer) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.21 162.48 Tm (Sep 2024 \226 Sep 2026) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 150.86 Tm (myFirst Teach Sdn Bhd  |  Johor, Malaysia) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 137.26 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 137.26 Tm (Owned AI video generation in myFirst Cam: parallel uploads under a concurrency limit, generation brokered) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 125.91 Tm (through Firestore, a step-based progress UI, and full artefact cleanup when a run fails.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 113.36 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 113.36 Tm (Built the voiceover pipeline end-to-end \227 in-app voice note recording, FFmpeg audio mixing of voiceover, music) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 102.01 Tm (and original track into the generated video, plus playback control and per-track volume.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 89.46 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 89.46 Tm (Added template-based video rendering on WorkManager, with background scheduling, music download and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 78.11 Tm (media preparation so long renders survive backgrounding.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 65.56 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 65.56 Tm (Enforced per-day generation quotas driven by Firebase Remote Config, so AI cost could be tuned remotely) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 54.21 Tm (without a release.) Tj ET
 BT /F1 7.60 Tf 0.00 Tc 1 0 0 1 198.08 30.00 Tm (Swe Zin Linn   |   Senior Android Developer   |   Page 1 of 2) Tj ET
 endstream
 endobj
@@ -133,68 +134,68 @@ endobj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] /Contents 5 0 R >>
 endobj
 13 0 obj
-<< /Length 9366 >>
+<< /Length 9062 >>
 stream
 0 0 0 rg
 0 0 0 RG
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 785.81 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 785.81 Tm (Worked across an AI-first platform whose assistant answers questions about a child's photo, generates) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 774.46 Tm (illustrated stories and restyles images \227 backed by on-device ML \(Google ML Kit, TensorFlow Lite) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 763.11 Tm (MobileFaceNet\) that groups faces without photos leaving the device.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 750.56 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 750.56 Tm (Hardened authentication token handling and Firebase sign-in, and localised features across 25+ languages.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 733.23 Tm (Android Developer) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 455.22 733.23 Tm (May 2019 \226 Sep 2024) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 721.61 Tm (Wave Money \(Digital Money Myanmar Limited\)  |  Yangon, Myanmar) Tj ET
-BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 710.02 Tm (On Google Play:) Tj ET
-BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 710.02 Tm (WavePay) Tj ET
-0.40 w 137.46 708.42 m 175.12 708.42 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 696.21 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 696.21 Tm (Acted as domain expert and led the re-architecture of the flagship app into a domain-based, multi-module) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 684.86 Tm (codebase.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 785.81 Tm (Built the post and create modules from scratch and re-architected their flows inside a 15-module Compose) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 774.46 Tm (codebase using Hilt, Room and Retrofit.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 761.91 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 761.91 Tm (Delivered the device setup wizard: software update, date and time, camera naming and device binding over the) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 750.56 Tm (camera pairing flow.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 738.01 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 738.01 Tm (Worked across an AI-first platform whose assistant answers questions about a photo, writes illustrated stories) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 726.66 Tm (and restyles images, backed by on-device ML \(Google ML Kit, TensorFlow Lite MobileFaceNet\).) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 709.33 Tm (Android Developer) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 455.22 709.33 Tm (May 2019 \226 Sep 2024) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 697.71 Tm (Wave Money \(Digital Money Myanmar Limited\)  |  Yangon, Myanmar) Tj ET
+BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 686.12 Tm (On Google Play:) Tj ET
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 686.12 Tm (WavePay) Tj ET
+0.40 w 137.46 684.52 m 175.12 684.52 l S
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 672.31 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 672.31 Tm (Delivered the Super App platform by embedding mini-apps and shipping new features to thousands of daily) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 660.96 Tm (users.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 672.31 Tm (Acted as domain expert and led the re-architecture of the flagship app into a domain-based, multi-module) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 660.96 Tm (codebase.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 648.41 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 648.41 Tm (Raised the crash-free rate to 99.5% for 5M users in Firebase Crashlytics through systematic, step-by-step) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 637.06 Tm (debugging.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 648.41 Tm (Delivered the Super App platform by embedding mini-apps, with push notifications, in-app messaging and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 637.06 Tm (analytics through Firebase, Mixpanel and Adjust.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 624.51 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 624.51 Tm (Built native features with Kotlin and MVVM, using Room for local storage and Retrofit for API integration,) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 613.16 Tm (covered by unit tests.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 624.51 Tm (Raised the crash-free rate to 99.5% for 5M users in Firebase Crashlytics through systematic, step-by-step) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 613.16 Tm (debugging.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 600.61 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 600.61 Tm (Instrumented push notifications, in-app messaging and product analytics with Firebase, Mixpanel and Adjust.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 588.06 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 588.06 Tm (Mentored junior developers, led technical brainstorming sessions, and served as technical mentor at Wave) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 576.71 Tm (Hackathon 2023.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 559.38 Tm (Android Developer \(Senior Associate Engineer\)) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 455.73 559.38 Tm (Mar 2019 \226 May 2019) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 547.76 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 534.16 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 534.16 Tm (Led new features from concept to release, driving a significant increase in user engagement and satisfaction.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 521.61 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 521.61 Tm (Owned two Android apps across a wide range of OS versions and devices, keeping behaviour consistent.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 509.06 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 509.06 Tm (Created sequence diagrams to communicate screen flow clearly to engineers and stakeholders.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 491.73 Tm (Android Developer \(Associate Engineer\)) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.72 491.73 Tm (Sep 2017 \226 Mar 2019) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 480.11 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
-BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 468.52 Tm (On Google Play:) Tj ET
-BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 468.52 Tm (Myanmar Net App) Tj ET
-0.40 w 137.46 466.92 m 208.37 466.92 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 454.71 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 454.71 Tm (Built and maintained Android apps for the ISP industry using MVP, Dagger 2 for dependency injection and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 443.36 Tm (RxJava for threading.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 430.81 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 430.81 Tm (Developed native apps with Room, Realm and SQLite, integrating backend APIs through Retrofit and OkHttp.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 418.26 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 418.26 Tm (Adopted Android Architecture Components \(LiveData, ViewModel\) to improve app performance and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 406.91 Tm (maintainability.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 394.36 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 394.36 Tm (Added ExoPlayer-based adaptive video streaming, and developed an Android launcher with Leanback for TV) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 383.01 Tm (form factors.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 370.46 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 370.46 Tm (Integrated Firebase SDKs for Crashlytics, Remote Config and push notifications, and automated UI tests with) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 359.11 Tm (Espresso.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 600.61 Tm (Built native features with Kotlin and MVVM, using Room for local storage and Retrofit for API integration,) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 589.26 Tm (covered by unit tests.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 576.71 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 576.71 Tm (Mentored junior developers, led technical brainstorming sessions, and served as technical mentor at Wave) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 565.36 Tm (Hackathon 2023.) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 548.03 Tm (Android Developer \(Senior Associate Engineer\)) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 455.73 548.03 Tm (Mar 2019 \226 May 2019) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 536.41 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 522.81 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 522.81 Tm (Led new features from concept to release, driving a significant increase in user engagement and satisfaction.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 510.26 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 510.26 Tm (Owned two Android apps across a wide range of OS versions and devices, keeping behaviour consistent.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 497.71 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 497.71 Tm (Created sequence diagrams to communicate screen flow clearly to engineers and stakeholders.) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 480.38 Tm (Android Developer \(Associate Engineer\)) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.72 480.38 Tm (Sep 2017 \226 Mar 2019) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 468.76 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
+BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 457.17 Tm (On Google Play:) Tj ET
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 457.17 Tm (Myanmar Net App) Tj ET
+0.40 w 137.46 455.57 m 208.37 455.57 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 443.36 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 443.36 Tm (Built and maintained Android apps for the ISP industry using MVP, Dagger 2 for dependency injection and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 432.01 Tm (RxJava for threading.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 419.46 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 419.46 Tm (Developed native apps with Room, Realm and SQLite, integrating backend APIs through Retrofit and OkHttp.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 406.91 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 406.91 Tm (Adopted Android Architecture Components \(LiveData, ViewModel\) to improve app performance and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 395.56 Tm (maintainability.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 383.01 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 383.01 Tm (Added ExoPlayer-based adaptive video streaming, developed a Leanback launcher for TV, and automated UI) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 371.66 Tm (tests with Espresso.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 359.11 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 359.11 Tm (Integrated Firebase SDKs for Crashlytics, Remote Config and push notifications.) Tj ET
 BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 341.78 Tm (Android Intern & Field Study) Tj ET
 BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.22 341.78 Tm (Nov 2016 \226 Aug 2017) Tj ET
 BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 330.16 Tm (Frontiir Co., Ltd  /  Myanmar Information Technology Pte, Ltd  |  Yangon, Myanmar) Tj ET
@@ -208,37 +209,34 @@ BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 261.53 Tm (Bachelor of Computer Science in
 BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 493.24 261.53 Tm (2012 \226 2017) Tj ET
 BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 249.91 Tm (University of Information Technology  |  Yangon, Myanmar) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 236.31 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 236.31 Tm (Coursework: Advanced Programming Techniques; Database Design and Development; Advanced Web) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 224.96 Tm (Development; Computer Networks; Project Management in IT.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 212.41 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 212.41 Tm (Machine learning project predicting vehicle crash conditions with Naive Bayes classification; built a tendering) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 201.06 Tm (system in PHP.) Tj ET
-BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 186.59 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj ET
-0.70 w 52.00 181.59 m 543.28 181.59 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 236.31 Tm (Coursework in advanced programming, database design, web development, computer networks and IT project) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 224.96 Tm (management. Final-year machine learning project predicting vehicle crash conditions with Naive Bayes) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 213.61 Tm (classification, plus a tendering system built in PHP.) Tj ET
+BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 199.14 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj ET
+0.70 w 52.00 194.14 m 543.28 194.14 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 182.06 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 182.06 Tm (Passed the ITPEC \(IT Professional Examination Council\) exam.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 169.51 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 169.51 Tm (Passed the ITPEC \(IT Professional Examination Council\) exam.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 156.96 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 156.96 Tm (Team Recognition Award and Certificate in SDLC \(Agile\), Frontiir Co., Ltd.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 144.41 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 144.41 Tm (Certificates in Android Mobile Application Development, Android Game with Arduino Microcontroller \(Basic\), and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 133.06 Tm (Professional Web Developer \(Fairway Technology\).) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 120.51 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 120.51 Tm (FinLit Hackathon: built an interest-rate calculation web application in JavaScript with a team of five.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 107.96 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 107.96 Tm (Young Adult Intermediate Level, British Council; General English \(four skills\) Pre-Intermediate, RELT.) Tj ET
-BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 93.49 Tm (STRENGTHS & LANGUAGES) Tj ET
-0.70 w 52.00 88.49 m 543.28 88.49 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 76.41 Tm (Owning features end-to-end \267 Writing efficient, reusable code \267 Debugging and root-cause analysis \267 Mentoring and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 65.01 Tm (leadership \267 Clear technical communication \267 Attention to detail \267 Adaptability \267 Learning new technologies quickly) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 49.61 Tm (English \(professional working proficiency\) \267 Myanmar \(native\)) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 169.51 Tm (Team Recognition Award and SDLC \(Agile\) certificate from Frontiir Co., Ltd; certificates in Android Mobile) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 158.16 Tm (Application Development, Android Game with Arduino \(Basic\) and Professional Web Developer \(Fairway) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 146.81 Tm (Technology\).) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 134.26 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 134.26 Tm (FinLit Hackathon: built an interest-rate calculation web application in JavaScript with a team of five.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 121.71 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 121.71 Tm (Young Adult Intermediate Level, British Council; General English \(four skills\) Pre-Intermediate, RELT.) Tj ET
+BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 107.24 Tm (STRENGTHS & LANGUAGES) Tj ET
+0.70 w 52.00 102.24 m 543.28 102.24 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 90.16 Tm (Owning features end-to-end \267 Debugging and root-cause analysis \267 Mentoring and leadership \267 Clear technical) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 78.76 Tm (communication \267 Adaptability) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 63.36 Tm (English \(professional working proficiency\) \267 Myanmar \(native\)) Tj ET
 BT /F1 7.60 Tf 0.00 Tc 1 0 0 1 198.08 30.00 Tm (Swe Zin Linn   |   Senior Android Developer   |   Page 2 of 2) Tj ET
 endstream
 endobj
 14 0 obj
-<< /Type /Annot /Subtype /Link /Rect [136.46 707.82 176.12 716.89] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=mm.com.wavemoney.wavepay) >> >>
+<< /Type /Annot /Subtype /Link /Rect [136.46 683.92 176.12 692.99] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=mm.com.wavemoney.wavepay) >> >>
 endobj
 15 0 obj
-<< /Type /Annot /Subtype /Link /Rect [136.46 466.32 209.37 475.39] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
+<< /Type /Annot /Subtype /Link /Rect [136.46 454.97 209.37 464.04] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
 endobj
 16 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [14 0 R 15 0 R] /Contents 13 0 R >>
@@ -257,21 +255,21 @@ xref
 0000000214 00000 n 
 0000000319 00000 n 
 0000000384 00000 n 
-0000009756 00000 n 
-0000009915 00000 n 
-0000010088 00000 n 
-0000010260 00000 n 
-0000010420 00000 n 
-0000010614 00000 n 
-0000010811 00000 n 
-0000011012 00000 n 
-0000020431 00000 n 
-0000020633 00000 n 
-0000020838 00000 n 
-0000021016 00000 n 
-0000021173 00000 n 
+0000009718 00000 n 
+0000009877 00000 n 
+0000010050 00000 n 
+0000010222 00000 n 
+0000010382 00000 n 
+0000010576 00000 n 
+0000010773 00000 n 
+0000010974 00000 n 
+0000020089 00000 n 
+0000020291 00000 n 
+0000020496 00000 n 
+0000020674 00000 n 
+0000020831 00000 n 
 trailer
 << /Size 19 /Root 18 0 R /Info 17 0 R >>
 startxref
-21223
+20881
 %%EOF

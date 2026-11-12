@@ -180,6 +180,27 @@
   .sec-title h2 { font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 700; letter-spacing: -0.04em; margin: 0; }
 
   .work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .card.featured { grid-column: 1 / -1; }
+  .strands { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 30px; }
+  .strands > div { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+  .strands h4 {
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--line);
+  }
+  .strands ul { margin: 0; padding-left: 16px; display: flex; flex-direction: column; gap: 6px; }
+  .strands li { font-size: 0.9rem; line-height: 1.48; }
+  .strands li::marker { color: var(--accent2); }
+  @media (max-width: 820px) {
+    .card.featured { grid-column: auto; }
+    .strands { grid-template-columns: minmax(0, 1fr); }
+  }
   @media (max-width: 820px) { .work-grid { grid-template-columns: minmax(0, 1fr); } }
 
   .card {
@@ -384,24 +405,52 @@
 
     <div class="work-grid">
 
-      <article class="card">
+      <article class="card featured">
         <div class="card-head">
-          <h3>OneCash AI chat SDK</h3>
-          <span class="card-when">2026 · sole author</span>
+          <h3>One Cash</h3>
+          <span class="card-when">2026 · present</span>
         </div>
         <p>
-          An AI assistant packaged as a drop-in Compose library, so every app in the group gets the same
-          chat experience without rebuilding it. Published as an AAR through JitPack.
+          Yemen's digital wallet. I build both Android apps — the customer wallet and the agent app —
+          and wrote the AI chat assistant that ships inside the customer app.
         </p>
-        <ul>
-          <li>Replies stream over an OkHttp WebSocket that reconnects with exponential backoff.</li>
-          <li>Messages queue in Room while the socket is down and replay when it reopens.</li>
-          <li>Session state held in EncryptedSharedPreferences behind a single-entry facade.</li>
-          <li>Bilingual Arabic and English, with full right-to-left layout.</li>
-        </ul>
+        <div class="strands">
+          <div>
+            <h4>Chat SDK · sole author</h4>
+            <ul>
+              <li>An AI assistant packaged as a reusable Compose library (AAR via JitPack), embedded in the customer app's home screen.</li>
+              <li>Replies stream over an OkHttp WebSocket that reconnects with exponential backoff.</li>
+              <li>Messages queue in Room while the socket is down and replay when it reopens.</li>
+              <li>Session state in EncryptedSharedPreferences, behind a single-entry facade.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Customer app</h4>
+            <ul>
+              <li>Loyalty points end to end: new home experience, hero module and points redemption.</li>
+              <li>Multi-biller payment journeys with dynamic biller forms, checkout and confirmation.</li>
+              <li>Notification events and in-app notification handling.</li>
+              <li>Side-menu reporting, favourites, and Arabic/English localisation throughout.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Agent app</h4>
+            <ul>
+              <li>Cash-in, e-wallet and over-the-counter transfers, refunds and nominated-bank transfers.</li>
+              <li>Vouchers, e-cards, Zakat payments and service orders.</li>
+              <li>Registration and MSISDN validation extended to customers outside Yemen.</li>
+              <li>Transaction history and detail rebuilt, including refund journeys and request hashing.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="applinks">
+          <b>On Google Play</b>
+          <a href="https://play.google.com/store/apps/details?id=com.one.onecustomer">ONE Cash: Your Digital Wallet</a>
+          <a href="https://play.google.com/store/apps/details?id=com.one.oneagent">ONE Cash: Agent and Merchant</a>
+        </div>
         <div class="tags">
-          <span>Kotlin</span><span>Jetpack Compose</span><span>WebSocket</span>
-          <span>Room</span><span>Hilt</span><span>Material 3</span>
+          <span>Kotlin</span><span>Java</span><span>Jetpack Compose</span><span>WebSocket</span>
+          <span>Room</span><span>Hilt</span><span>Material 3</span><span>RTL</span>
         </div>
       </article>
 
@@ -426,29 +475,6 @@
         </div>
       </article>
 
-      <article class="card">
-        <div class="card-head">
-          <h3>One Cash Agent</h3>
-          <span class="card-when">2026 · present</span>
-        </div>
-        <p>
-          The app agents use to move money across Yemen. I ship features into a long-lived mixed Java and
-          Kotlin codebase without disturbing what already works.
-        </p>
-        <ul>
-          <li>Cash-in, e-wallet and over-the-counter transfers, refunds, vouchers, e-cards, Zakat payments.</li>
-          <li>Registration and MSISDN validation extended to customers outside Yemen.</li>
-          <li>Transaction history and detail rebuilt, including refund journeys and request hashing.</li>
-        </ul>
-        <div class="applinks">
-          <b>On Google Play</b>
-          <a href="https://play.google.com/store/apps/details?id=com.one.oneagent">ONE Cash: Agent and Merchant</a>
-          <a href="https://play.google.com/store/apps/details?id=com.one.onecustomer">ONE Cash: Your Digital Wallet</a>
-        </div>
-        <div class="tags">
-          <span>Kotlin</span><span>Java</span><span>REST</span><span>Legacy modernisation</span>
-        </div>
-      </article>
 
       <article class="card">
         <div class="card-head">
