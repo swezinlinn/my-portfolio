@@ -134,7 +134,7 @@ endobj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] /Contents 5 0 R >>
 endobj
 13 0 obj
-<< /Length 9062 >>
+<< /Length 9178 >>
 stream
 0 0 0 rg
 0 0 0 RG
@@ -174,61 +174,62 @@ BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 536.41 Tm (Frontiir Co., Ltd  |  Yangon, My
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 522.81 Tm (\225) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 522.81 Tm (Led new features from concept to release, driving a significant increase in user engagement and satisfaction.) Tj ET
 BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 510.26 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 510.26 Tm (Owned two Android apps across a wide range of OS versions and devices, keeping behaviour consistent.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 497.71 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 497.71 Tm (Created sequence diagrams to communicate screen flow clearly to engineers and stakeholders.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 480.38 Tm (Android Developer \(Associate Engineer\)) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.72 480.38 Tm (Sep 2017 \226 Mar 2019) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 468.76 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
-BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 457.17 Tm (On Google Play:) Tj ET
-BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 457.17 Tm (Myanmar Net App) Tj ET
-0.40 w 137.46 455.57 m 208.37 455.57 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 443.36 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 443.36 Tm (Built and maintained Android apps for the ISP industry using MVP, Dagger 2 for dependency injection and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 432.01 Tm (RxJava for threading.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 419.46 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 419.46 Tm (Developed native apps with Room, Realm and SQLite, integrating backend APIs through Retrofit and OkHttp.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 406.91 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 406.91 Tm (Adopted Android Architecture Components \(LiveData, ViewModel\) to improve app performance and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 395.56 Tm (maintainability.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 383.01 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 383.01 Tm (Added ExoPlayer-based adaptive video streaming, developed a Leanback launcher for TV, and automated UI) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 371.66 Tm (tests with Espresso.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 359.11 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 359.11 Tm (Integrated Firebase SDKs for Crashlytics, Remote Config and push notifications.) Tj ET
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 341.78 Tm (Android Intern & Field Study) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.22 341.78 Tm (Nov 2016 \226 Aug 2017) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 330.16 Tm (Frontiir Co., Ltd  /  Myanmar Information Technology Pte, Ltd  |  Yangon, Myanmar) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 316.56 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 316.56 Tm (Built a mobile app with React Native and SQLite over a four-month internship, owning design, UI, logic and) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 305.21 Tm (implementation with a team of three; earlier built a native Android restaurant app with a team of five during a) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 293.86 Tm (one-month field study.) Tj ET
-BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 279.39 Tm (EDUCATION) Tj ET
-0.70 w 52.00 274.39 m 543.28 274.39 l S
-BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 261.53 Tm (Bachelor of Computer Science in Software Engineering) Tj ET
-BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 493.24 261.53 Tm (2012 \226 2017) Tj ET
-BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 249.91 Tm (University of Information Technology  |  Yangon, Myanmar) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 236.31 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 236.31 Tm (Coursework in advanced programming, database design, web development, computer networks and IT project) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 224.96 Tm (management. Final-year machine learning project predicting vehicle crash conditions with Naive Bayes) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 213.61 Tm (classification, plus a tendering system built in PHP.) Tj ET
-BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 199.14 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj ET
-0.70 w 52.00 194.14 m 543.28 194.14 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 182.06 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 182.06 Tm (Passed the ITPEC \(IT Professional Examination Council\) exam.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 169.51 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 169.51 Tm (Team Recognition Award and SDLC \(Agile\) certificate from Frontiir Co., Ltd; certificates in Android Mobile) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 158.16 Tm (Application Development, Android Game with Arduino \(Basic\) and Professional Web Developer \(Fairway) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 146.81 Tm (Technology\).) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 134.26 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 134.26 Tm (FinLit Hackathon: built an interest-rate calculation web application in JavaScript with a team of five.) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 121.71 Tm (\225) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 121.71 Tm (Young Adult Intermediate Level, British Council; General English \(four skills\) Pre-Intermediate, RELT.) Tj ET
-BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 107.24 Tm (STRENGTHS & LANGUAGES) Tj ET
-0.70 w 52.00 102.24 m 543.28 102.24 l S
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 90.16 Tm (Owning features end-to-end \267 Debugging and root-cause analysis \267 Mentoring and leadership \267 Clear technical) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 78.76 Tm (communication \267 Adaptability) Tj ET
-BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 63.36 Tm (English \(professional working proficiency\) \267 Myanmar \(native\)) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 510.26 Tm (Owned Myanmar Net App and Myanmar Cast across a wide range of OS versions and devices, keeping) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 498.91 Tm (behaviour consistent.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 486.36 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 486.36 Tm (Created sequence diagrams to communicate screen flow clearly to engineers and stakeholders.) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 469.03 Tm (Android Developer \(Associate Engineer\)) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.72 469.03 Tm (Sep 2017 \226 Mar 2019) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 457.41 Tm (Frontiir Co., Ltd  |  Yangon, Myanmar) Tj ET
+BT /F2 8.80 Tf 0.00 Tc 1 0 0 1 64.00 445.82 Tm (On Google Play:) Tj ET
+BT /F1 8.80 Tf 0.00 Tc 1 0 0 1 137.46 445.82 Tm (Myanmar Net App) Tj ET
+0.40 w 137.46 444.22 m 208.37 444.22 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 432.01 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 432.01 Tm (Built and maintained Myanmar Net App and Myanmar Cast \227 the subscriber and internet-TV apps for) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 420.66 Tm (Myanmar's largest broadband provider \227 on MVP with Dagger 2 and RxJava.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 408.11 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 408.11 Tm (Developed native apps with Room, Realm and SQLite, integrating backend APIs through Retrofit and OkHttp.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 395.56 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 395.56 Tm (Adopted Android Architecture Components \(LiveData, ViewModel\) to improve app performance and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 384.21 Tm (maintainability.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 371.66 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 371.66 Tm (Added ExoPlayer-based adaptive video streaming, developed a Leanback launcher for TV, and automated UI) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 360.31 Tm (tests with Espresso.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 347.76 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 347.76 Tm (Integrated Firebase SDKs for Crashlytics, Remote Config and push notifications.) Tj ET
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 330.43 Tm (Android Intern & Field Study) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 456.22 330.43 Tm (Nov 2016 \226 Aug 2017) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 318.81 Tm (Frontiir Co., Ltd  /  Myanmar Information Technology Pte, Ltd  |  Yangon, Myanmar) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 305.21 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 305.21 Tm (Built a mobile app with React Native and SQLite over a four-month internship, owning design, UI, logic and) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 293.86 Tm (implementation with a team of three; earlier built a native Android restaurant app with a team of five during a) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 282.51 Tm (one-month field study.) Tj ET
+BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 268.04 Tm (EDUCATION) Tj ET
+0.70 w 52.00 263.04 m 543.28 263.04 l S
+BT /F2 10.30 Tf 0.00 Tc 1 0 0 1 52.00 250.18 Tm (Bachelor of Computer Science in Software Engineering) Tj ET
+BT /F1 9.00 Tf 0.00 Tc 1 0 0 1 493.24 250.18 Tm (2012 \226 2017) Tj ET
+BT /F3 9.40 Tf 0.00 Tc 1 0 0 1 52.00 238.56 Tm (University of Information Technology  |  Yangon, Myanmar) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 224.96 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 224.96 Tm (Coursework in advanced programming, database design, web development, computer networks and IT project) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 213.61 Tm (management. Final-year machine learning project predicting vehicle crash conditions with Naive Bayes) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 202.26 Tm (classification, plus a tendering system built in PHP.) Tj ET
+BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 187.79 Tm (CERTIFICATIONS & ACHIEVEMENTS) Tj ET
+0.70 w 52.00 182.79 m 543.28 182.79 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 170.71 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 170.71 Tm (Passed the ITPEC \(IT Professional Examination Council\) exam.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 158.16 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 158.16 Tm (Team Recognition Award and SDLC \(Agile\) certificate from Frontiir Co., Ltd; certificates in Android Mobile) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 146.81 Tm (Application Development, Android Game with Arduino \(Basic\) and Professional Web Developer \(Fairway) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 135.46 Tm (Technology\).) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 122.91 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 122.91 Tm (FinLit Hackathon: built an interest-rate calculation web application in JavaScript with a team of five.) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 64.00 110.36 Tm (\225) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 74.00 110.36 Tm (Young Adult Intermediate Level, British Council; General English \(four skills\) Pre-Intermediate, RELT.) Tj ET
+BT /F2 10.00 Tf 1.50 Tc 1 0 0 1 52.00 95.89 Tm (STRENGTHS & LANGUAGES) Tj ET
+0.70 w 52.00 90.89 m 543.28 90.89 l S
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 78.81 Tm (Owning features end-to-end \267 Debugging and root-cause analysis \267 Mentoring and leadership \267 Clear technical) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 67.41 Tm (communication \267 Adaptability) Tj ET
+BT /F1 9.40 Tf 0.00 Tc 1 0 0 1 52.00 52.01 Tm (English \(professional working proficiency\) \267 Myanmar \(native\)) Tj ET
 BT /F1 7.60 Tf 0.00 Tc 1 0 0 1 198.08 30.00 Tm (Swe Zin Linn   |   Senior Android Developer   |   Page 2 of 2) Tj ET
 endstream
 endobj
@@ -236,7 +237,7 @@ endobj
 << /Type /Annot /Subtype /Link /Rect [136.46 683.92 176.12 692.99] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=mm.com.wavemoney.wavepay) >> >>
 endobj
 15 0 obj
-<< /Type /Annot /Subtype /Link /Rect [136.46 454.97 209.37 464.04] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
+<< /Type /Annot /Subtype /Link /Rect [136.46 443.62 209.37 452.69] /Border [0 0 0] /F 4 /A << /S /URI /URI (https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber) >> >>
 endobj
 16 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Annots [14 0 R 15 0 R] /Contents 13 0 R >>
@@ -263,13 +264,13 @@ xref
 0000010576 00000 n 
 0000010773 00000 n 
 0000010974 00000 n 
-0000020089 00000 n 
-0000020291 00000 n 
-0000020496 00000 n 
-0000020674 00000 n 
-0000020831 00000 n 
+0000020205 00000 n 
+0000020407 00000 n 
+0000020612 00000 n 
+0000020790 00000 n 
+0000020947 00000 n 
 trailer
 << /Size 19 /Root 18 0 R /Info 17 0 R >>
 startxref
-20881
+20997
 %%EOF
