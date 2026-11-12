@@ -218,6 +218,27 @@
     padding: 4px 8px;
   }
 
+  .applinks { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 14px; }
+  .applinks b {
+    font-family: var(--mono);
+    font-size: 0.64rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .applinks a, .row p a {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 1px;
+  }
+  .applinks a:hover, .applinks a:focus-visible,
+  .row p a:hover, .row p a:focus-visible { border-bottom-color: var(--accent); }
+
   .timeline { display: flex; flex-direction: column; }
   .row {
     display: grid;
@@ -419,6 +440,11 @@
           <li>Registration and MSISDN validation extended to customers outside Yemen.</li>
           <li>Transaction history and detail rebuilt, including refund journeys and request hashing.</li>
         </ul>
+        <div class="applinks">
+          <b>On Google Play</b>
+          <a href="https://play.google.com/store/apps/details?id=com.one.oneagent">ONE Cash: Agent and Merchant</a>
+          <a href="https://play.google.com/store/apps/details?id=com.one.onecustomer">ONE Cash: Your Digital Wallet</a>
+        </div>
         <div class="tags">
           <span>Kotlin</span><span>Java</span><span>REST</span><span>Legacy modernisation</span>
         </div>
@@ -438,6 +464,10 @@
           <li>Super App platform built by embedding mini-apps alongside the core wallet.</li>
           <li>Technical mentor at Wave Hackathon 2023, and day-to-day mentor to junior engineers.</li>
         </ul>
+        <div class="applinks">
+          <b>On Google Play</b>
+          <a href="https://play.google.com/store/apps/details?id=mm.com.wavemoney.wavepay">WavePay</a>
+        </div>
         <div class="tags">
           <span>Kotlin</span><span>MVVM</span><span>Room</span><span>Retrofit</span>
           <span>Firebase</span><span>Mixpanel</span>
@@ -480,7 +510,8 @@
         <div class="when">Sep 2017 — May 2019</div>
         <div>
           <h3>Android Developer, Frontiir</h3>
-          <p>ISP apps on MVP and Dagger 2, ExoPlayer streaming, a Leanback TV launcher.</p>
+          <p>ISP apps on MVP and Dagger 2, ExoPlayer streaming, a Leanback TV launcher. Shipped
+            <a href="https://play.google.com/store/apps/details?id=com.frontiir.isp.subscriber">Myanmar Net App</a> and Myanmar Cast.</p>
         </div>
       </div>
       <div class="row">
