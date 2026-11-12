@@ -315,9 +315,8 @@
   .stack-grid p { margin: 0; font-size: 0.95rem; color: var(--muted); }
 
   .contact { border-top: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); }
-  .contact .eyebrow { color: rgba(255, 255, 255, 0.88); }
+  .contact .eyebrow { color: var(--accent-ink); }
   .contact h2 { color: var(--accent-ink); }
-  .contact p { color: var(--accent-ink); }
   .contact .inner { padding-block: clamp(54px, 8vw, 88px); }
   .contact h2 {
     font-size: clamp(2rem, 7vw, 4.2rem);
@@ -326,7 +325,7 @@
     line-height: 0.95;
     margin: 12px 0 0;
   }
-  .contact p { margin: 20px 0 0; max-width: 54ch; color: var(--muted); }
+  .contact p { margin: 20px 0 0; max-width: 54ch; color: var(--accent-ink); }
   .mail {
     display: inline-block;
     margin-top: 24px;
@@ -334,7 +333,7 @@
     font-size: clamp(0.92rem, 2.4vw, 1.2rem);
     color: var(--accent-ink);
     text-decoration: none;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    border-bottom: 2px solid var(--accent-ink);
     padding-bottom: 3px;
     word-break: break-all;
   }
@@ -385,10 +384,9 @@
       <span>Kotlin · Jetpack Compose · nine years</span>
     </div>
     <p class="intro">
-      I build Android apps that people use every day, and the AI features inside them. I wrote the
-      OneCash AI chat SDK, a Compose assistant that streams model responses over a WebSocket and
-      keeps working when the socket drops. Before that I led generative video on myFirst's children's
-      cameras, and the re-architecture of Wave Money, Myanmar's largest fintech app.
+      Nine years building Android apps people use every day, and the AI features inside them — the
+      One Cash chat assistant, generative video on myFirst's children's cameras, and the
+      re-architecture of Wave Money, Myanmar's largest fintech app.
     </p>
     <div class="cta">
       <a class="btn primary" href="mailto:swezinlinn1@gmail.com">Email me</a>
@@ -430,28 +428,25 @@
           <div>
             <h4>Chat SDK · sole author</h4>
             <ul>
-              <li>An AI assistant packaged as a reusable Compose library (AAR via JitPack), embedded in the customer app's home screen.</li>
-              <li>Replies stream over an OkHttp WebSocket that reconnects with exponential backoff.</li>
-              <li>Messages queue in Room while the socket is down and replay when it reopens.</li>
-              <li>Session state in EncryptedSharedPreferences, behind a single-entry facade.</li>
+              <li>A reusable Compose library (AAR via JitPack), embedded in the customer app's home screen.</li>
+              <li>Streams over a WebSocket with backoff; queues in Room offline and replays on reconnect.</li>
+              <li>Encrypted session state behind a single-entry facade.</li>
             </ul>
           </div>
           <div>
             <h4>Customer app</h4>
             <ul>
-              <li>Loyalty points end to end: new home experience, hero module and points redemption.</li>
-              <li>Multi-biller payment journeys with dynamic biller forms, checkout and confirmation.</li>
-              <li>Notification events and in-app notification handling.</li>
-              <li>Side-menu reporting, favourites, and Arabic/English localisation throughout.</li>
+              <li>Loyalty points end to end: home experience, hero module, redemption.</li>
+              <li>Multi-biller payments with dynamic forms and checkout.</li>
+              <li>Notifications, side-menu reporting, favourites, Arabic/English throughout.</li>
             </ul>
           </div>
           <div>
             <h4>Agent app</h4>
             <ul>
-              <li>Cash-in, e-wallet and over-the-counter transfers, refunds and nominated-bank transfers.</li>
-              <li>Vouchers, e-cards, Zakat payments and service orders.</li>
-              <li>Registration and MSISDN validation extended to customers outside Yemen.</li>
-              <li>Transaction history and detail rebuilt, including refund journeys and request hashing.</li>
+              <li>Transfers, refunds, vouchers, e-cards, Zakat payments and service orders.</li>
+              <li>Registration and MSISDN validation for customers outside Yemen.</li>
+              <li>Transaction history and detail, including refunds and request hashing.</li>
             </ul>
           </div>
         </div>
@@ -473,13 +468,12 @@
         </div>
         <p>
           Children pick photos, record a voice note, and get a finished video back. I owned the pipeline
-          end to end, on a kids' device where failures have to clean up after themselves.
+          end to end.
         </p>
         <ul>
-          <li>Parallel uploads to Firebase Storage under a concurrency limit, with full cleanup on failure.</li>
-          <li>Generation brokered through Firestore, surfaced as a step-based progress UI.</li>
+          <li>Parallel uploads under a concurrency limit, with full cleanup when a run fails.</li>
           <li>Voiceover, music and original audio mixed into the render with FFmpeg.</li>
-          <li>Template renders scheduled on WorkManager so long jobs survive backgrounding.</li>
+          <li>Template renders on WorkManager, so long jobs survive backgrounding.</li>
         </ul>
         <div class="tags">
           <span>Kotlin</span><span>Compose</span><span>Firebase</span><span>FFmpeg</span>
@@ -495,12 +489,12 @@
         </div>
         <p>
           Myanmar's largest fintech app, used by millions daily. I was the domain expert for the
-          re-architecture that broke it into domain-based modules.
+          re-architecture into domain-based modules.
         </p>
         <ul>
-          <li>Crash-free rate raised to 99.5% for five million users through log-based debugging.</li>
-          <li>Super App platform built by embedding mini-apps alongside the core wallet.</li>
-          <li>Technical mentor at Wave Hackathon 2023, and day-to-day mentor to junior engineers.</li>
+          <li>99.5% crash-free for five million users, through log-based debugging.</li>
+          <li>Super App platform built by embedding mini-apps alongside the wallet.</li>
+          <li>Mentor at Wave Hackathon 2023, and to junior engineers day to day.</li>
         </ul>
         <div class="applinks">
           <b>On Google Play</b>
@@ -518,14 +512,13 @@
           <span class="card-when">2017–2019 · Frontiir</span>
         </div>
         <p>
-          Two Android apps for Myanmar's largest fixed-broadband provider: the subscriber app people
-          use to pay bills and buy data packages, and the companion app for its internet TV service.
+          Two apps for Myanmar's largest fixed-broadband provider: the subscriber app for bills and
+          data packages, and the companion app for its internet TV service.
         </p>
         <ul>
-          <li>Built and maintained both apps on MVP, with Dagger 2 for dependency injection and RxJava for threading.</li>
-          <li>Local data in Room, Realm and SQLite; backend integration through Retrofit and OkHttp.</li>
-          <li>Adaptive video streaming built on ExoPlayer, plus a Leanback launcher for TV form factors.</li>
-          <li>Moved the codebase onto LiveData and ViewModel, and covered releases with Espresso tests.</li>
+          <li>Both apps on MVP, with Dagger 2 and RxJava.</li>
+          <li>Room, Realm and SQLite locally; Retrofit and OkHttp for APIs.</li>
+          <li>Adaptive streaming on ExoPlayer, plus a Leanback launcher for TV.</li>
         </ul>
         <div class="applinks">
           <b>On Google Play</b>
@@ -636,14 +629,14 @@
         <div class="when">2012 — 2017</div>
         <div>
           <h3>BSc Computer Science, Software Engineering</h3>
-          <p>University of Information Technology, Yangon. Final-year project predicting vehicle crash conditions with Naive Bayes classification.</p>
+          <p>University of Information Technology, Yangon.</p>
         </div>
       </div>
       <div class="row">
         <div class="when">Certified</div>
         <div>
           <h3>ITPEC, IT Professional Examination Council</h3>
-          <p>Also SDLC (Agile) and Android development certificates, and a Team Recognition Award at Frontiir.</p>
+          <p>Plus SDLC (Agile) and Android certificates, and a Team Recognition Award at Frontiir.</p>
         </div>
       </div>
     </div>
@@ -655,8 +648,7 @@
     <p class="eyebrow">Get in touch</p>
     <h2>Let's talk.</h2>
     <p>
-      Happy to talk about Android work, AI features in mobile products, or anything on this page.
-      The quickest way to reach me is email.
+      Happy to talk about Android work or AI features in mobile products.
     </p>
     <a class="mail" href="mailto:swezinlinn1@gmail.com">swezinlinn1@gmail.com</a>
   </div>
